@@ -1,0 +1,4 @@
+- React (FRAMEWORK. First Trainee modules, object desestrucration, array desestrcuration,
+Project with vite and NPM or Yarn).
+- Jest (FRAMEWORK. Testing js functions).
+- react-testing-library (FAMILY OF PACKAGES. DOM testing. Manipulate rendered components).

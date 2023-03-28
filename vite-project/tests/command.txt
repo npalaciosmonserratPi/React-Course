@@ -1,0 +1,6 @@
+toBe //  expect(received).toBe(expected)  Esperaba tal resultado y recibí determinado.
+
+toStrcitEqual //Para valores de objetos.
+toEqual
+
+toBeFalsy //Para valores null, undefined, falso
