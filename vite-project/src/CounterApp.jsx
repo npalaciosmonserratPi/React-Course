@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-export const CounterApp = () => {
-  const [counter, setCounter] = useState(0);
+export const CounterApp = ({value}) => {
+  const [counter, setCounter] = useState(value);
   //El estado cambió, por lo tanto se debe volver a renderizar el componente. 
   //Eso ocurre cuando se ejecuta el setCounter.
 
@@ -15,7 +15,7 @@ export const CounterApp = () => {
   }
 
   const handleReset = () =>{
-    setCounter(0);
+    setCounter(value);
   }
 
   return (
@@ -24,7 +24,7 @@ export const CounterApp = () => {
       <h2>{counter}</h2>
       <button onClick={handleAdd}>+1</button>
       <button onClick={hanldeSubstract}>-1</button>
-      <button onClick={handleReset}>Reset</button>
+      <button aria-label="btn-reset" onClick={handleReset}>Reset</button>
     </>
   );
 };

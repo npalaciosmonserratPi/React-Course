@@ -4,3 +4,17 @@ toStrcitEqual //Para valores de objetos.
 toEqual
 
 toBeFalsy //Para valores null, undefined, falso
+
+toBeTruthy //Verifica que sea True.
+
+toContain //Verifica que esté contenido.
+
+---- react testing library -----
+
+getByText //Busca el texto especificado, en el snapshot.
+
+getTextById //Obtiene el elemento con data-testid especificado en el html
+
+getAllByText //Retorna un arreglo con los textos que tengan un subtitulo
+
+getByRole //Permite retornar el contenido de una etiqueta especificada de HTML.
